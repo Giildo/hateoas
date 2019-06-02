@@ -29,7 +29,7 @@ class HateoasBuilder implements HateoasBuilderInterface
         string $type,
         string $linkName,
         ?array $params = []
-    ): LinkInterface {
+    ): ?LinkInterface {
         return LinkFactory::create(
             $type,
             $this->urlGenerator->generate($linkName, $params)

@@ -46,5 +46,7 @@ class LinkFactory implements LinkFactoryInterface
                 return new LinkUpdateShow($href);
                 break;
         };
+
+        return null;
     }
 }

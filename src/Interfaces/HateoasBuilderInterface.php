@@ -13,11 +13,11 @@ interface HateoasBuilderInterface
      * @param string     $linkName - Url name in Symfony router.
      * @param array|null $params - Parameters for url construction, if necessary. E.g: ['id' => 3].
      *
-     * @return LinkInterface - HATEOAS array.
+     * @return LinkInterface|null - HATEOAS array.
      */
     public function build(
         string $type,
         string $linkName,
         ?array $params = []
-    ): LinkInterface;
+    ): ?LinkInterface;
 }
