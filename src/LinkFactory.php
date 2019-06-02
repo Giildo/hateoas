@@ -21,8 +21,10 @@ class LinkFactory implements LinkFactoryInterface
     /**
      * {@inheritDoc}
      */
-    public static function create(string $type, string $href): ?LinkInterface
-    {
+    public static function create(
+        string $type,
+        string $href
+    ): ?LinkInterface {
         switch ($type) {
             case self::GET_SHOW:
                 return new LinkGetShow($href);
@@ -44,7 +46,5 @@ class LinkFactory implements LinkFactoryInterface
                 return new LinkUpdateShow($href);
                 break;
         };
-
-        return null;
     }
 }

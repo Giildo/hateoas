@@ -6,6 +6,8 @@ interface HateoasBuilderInterface
 {
     /**
      * Create a HATEOAS array for API REST.
+     * Create a link with the LinkFactory.
+     * Use the Link type and the Symfony URL Generator and gives them to the link factory.
      *
      * @param string     $type - Link type, list in LinkFactory constants.
      * @param string     $linkName - Url name in Symfony router.

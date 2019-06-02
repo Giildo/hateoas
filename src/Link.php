@@ -29,7 +29,7 @@ abstract class Link implements LinkInterface
     }
 
     /**
-     * @return string
+     * {@inheritDoc}
      */
     public function getType(): string
     {
@@ -37,7 +37,7 @@ abstract class Link implements LinkInterface
     }
 
     /**
-     * @return string
+     * {@inheritDoc}
      */
     public function getRel(): string
     {
@@ -45,7 +45,7 @@ abstract class Link implements LinkInterface
     }
 
     /**
-     * @return string
+     * {@inheritDoc}
      */
     public function getHref(): string
     {
