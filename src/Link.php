@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace Jojotique;
 
-use App\Interfaces\LinkInterface;
+use Jojotique\Interfaces\LinkInterface;
 
 abstract class Link implements LinkInterface
 {

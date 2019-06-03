@@ -1,14 +1,14 @@
 <?php
 
-namespace App;
+namespace Jojotique;
 
-use App\Interfaces\LinkFactoryInterface;
-use App\Interfaces\LinkInterface;
-use App\Links\LinkDeleteShow;
-use App\Links\LinkGetList;
-use App\Links\LinkGetShow;
-use App\Links\LinkPostShow;
-use App\Links\LinkUpdateShow;
+use Jojotique\Interfaces\LinkFactoryInterface;
+use Jojotique\Interfaces\LinkInterface;
+use Jojotique\Links\LinkDeleteShow;
+use Jojotique\Links\LinkGetList;
+use Jojotique\Links\LinkGetShow;
+use Jojotique\Links\LinkPostShow;
+use Jojotique\Links\LinkUpdateShow;
 
 class LinkFactory implements LinkFactoryInterface
 {

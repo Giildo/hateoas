@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Links;
+namespace Jojotique\Links;
 
-use App\Interfaces\LinkInterface;
-use App\Link;
+use Jojotique\Interfaces\LinkInterface;
+use Jojotique\Link;
 
 class LinkDeleteShow extends Link implements LinkInterface
 {
