@@ -1,9 +1,9 @@
 <?php
 
-namespace Jojotique;
+namespace Jojotique\Hateoas;
 
-use Jojotique\Interfaces\HateoasBuilderInterface;
-use Jojotique\Interfaces\LinkInterface;
+use Jojotique\Hateoas\Interfaces\HateoasBuilderInterface;
+use Jojotique\Hateoas\Interfaces\LinkInterface;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 class HateoasBuilder implements HateoasBuilderInterface

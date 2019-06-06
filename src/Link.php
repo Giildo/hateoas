@@ -1,8 +1,8 @@
 <?php
 
-namespace Jojotique;
+namespace Jojotique\Hateoas;
 
-use Jojotique\Interfaces\LinkInterface;
+use Jojotique\Hateoas\Interfaces\LinkInterface;
 
 abstract class Link implements LinkInterface
 {

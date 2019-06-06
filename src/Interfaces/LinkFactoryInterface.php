@@ -1,6 +1,6 @@
 <?php
 
-namespace Jojotique\Interfaces;
+namespace Jojotique\Hateoas\Interfaces;
 
 interface LinkFactoryInterface
 {

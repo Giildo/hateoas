@@ -1,9 +1,9 @@
 <?php
 
-namespace Jojotique\Links;
+namespace Jojotique\Hateoas\Links;
 
-use Jojotique\Interfaces\LinkInterface;
-use Jojotique\Link;
+use Jojotique\Hateoas\Interfaces\LinkInterface;
+use Jojotique\Hateoas\Link;
 
 class LinkPostShow extends Link implements LinkInterface
 {

@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use Jojotique\HateoasBuilder;
-use Jojotique\LinkFactory;
+use Jojotique\Hateoas\HateoasBuilder;
+use Jojotique\Hateoas\LinkFactory;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;

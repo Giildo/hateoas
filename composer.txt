@@ -1,7 +1,6 @@
 {
     "name": "jojotique/hateoas",
     "description": "A PHP library to support implementing HATEOAS representations for API REST in Symfony.",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +8,7 @@
             "email": "giildo.jm@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "symfony/routing": "^4.3"
     },

@@ -1,14 +1,14 @@
 <?php
 
-namespace Jojotique;
+namespace Jojotique\Hateoas;
 
-use Jojotique\Interfaces\LinkFactoryInterface;
-use Jojotique\Interfaces\LinkInterface;
-use Jojotique\Links\LinkDeleteShow;
-use Jojotique\Links\LinkGetList;
-use Jojotique\Links\LinkGetShow;
-use Jojotique\Links\LinkPostShow;
-use Jojotique\Links\LinkUpdateShow;
+use Jojotique\Hateoas\Interfaces\LinkFactoryInterface;
+use Jojotique\Hateoas\Interfaces\LinkInterface;
+use Jojotique\Hateoas\Links\LinkDeleteShow;
+use Jojotique\Hateoas\Links\LinkGetList;
+use Jojotique\Hateoas\Links\LinkGetShow;
+use Jojotique\Hateoas\Links\LinkPostShow;
+use Jojotique\Hateoas\Links\LinkUpdateShow;
 
 class LinkFactory implements LinkFactoryInterface
 {
